@@ -98,11 +98,11 @@ class JupyterLabSublime {
       },
       label: 'Go to bracket'
     });
-    commands.addKeyBinding({
-      command: 'sublime:go-to-bracket',
-      keys: ['Ctrl M'],
-      selector: '.CodeMirror-focused'
-    });
+    // commands.addKeyBinding({
+    //  command: 'sublime:go-to-bracket',
+    //  keys: ['Ctrl M'],
+    //  selector: '.CodeMirror-focused'
+    //});
 
     // Manage Shift-Ctrl-D collision
     commands.addCommand('sublime:duplicate-line', {
