@@ -42,3 +42,19 @@ npm run build
 jupyter lab build
 ```
 
+## This fork
+
+This fork just customizes the extension with personal preferences ([see this issue](https://github.com/ryantam626/jupyterlab_sublime/issues/14)). To use, first clone and compile:
+
+```bash
+conda install nodejs  # if node is not already installed
+git clone https://github.com/talmo/jupyterlab_sublime.git
+cd jupyterlab_sublime
+npm install
+npm run build
+```
+
+Then, just link the extension (must be done again in new environments):
+```bash
+jupyter labextension link .
+```
